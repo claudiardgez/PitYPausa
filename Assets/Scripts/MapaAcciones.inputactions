@@ -1,0 +1,86 @@
+{
+    "name": "MapaAcciones",
+    "maps": [
+        {
+            "name": "Jugador1",
+            "id": "e0a06517-5a65-4dec-a580-e7d2434a1ec7",
+            "actions": [
+                {
+                    "name": "Movimiento",
+                    "type": "Value",
+                    "id": "1be99551-a330-4c0f-a791-b68547cbc783",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Interactuar",
+                    "type": "Button",
+                    "id": "3fe3d05e-7b95-4326-b75a-879fd66175d2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MandarCoche",
+                    "type": "Button",
+                    "id": "0fca3780-5b3d-4c1b-8ea6-03872b083c97",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c00a98b3-6564-411f-a8cd-1a6b26da3f20",
+                    "path": "<DualShockGamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Control",
+                    "action": "Movimiento",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c4fefe7a-9381-4f12-ad38-c91908b03a21",
+                    "path": "<DualShockGamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Control",
+                    "action": "Interactuar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2bf47cf7-88a5-43f0-a98d-1cbb5ee2188d",
+                    "path": "<DualShockGamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Control",
+                    "action": "MandarCoche",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Control",
+            "bindingGroup": "Control",
+            "devices": [
+                {
+                    "devicePath": "<DualShockGamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
